@@ -82,12 +82,11 @@
 }
 
 .main{
-    background-color: #444654;
+    background-color: #343541;
     width: 100vw; height: 100vh;
 }
 
 .caixa{
-    border: solid red 2px;
     width: 1100px; height: 600px;
     display: flex;
     align-items: center;
@@ -97,13 +96,11 @@
 }
 
 .caixa > h1{
-    border: solid red 2px;
-    position: relative; bottom: 215px;
+    position: relative; bottom: 155px;
     color: white;
 }
 
 .examples{
-    border: solid red 2px;
     position: relative; right: 374px;
     display: flex;
     flex-direction: column;
@@ -113,5 +110,159 @@
     width: 22px; height: 22px;
     font-size: 30px;
     color: white;
-    position: relative; left: 160px;
+    position: relative; left: 160px; top: 260px;
+}
+
+.examples > h1{
+    width: 230px; height: 13px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  left: 63px; top: 290px;
+}
+
+.examples > li{
+    list-style-type: none;
+    margin-top: 20px;
+    position: relative; left: 62px; top: 320px;
+}
+
+.examples > li > button{
+    width: 230px; height: 63px;
+    background: #444654;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444654;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.capabilities{
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+#raio{
+    width: 22px; height: 22px;
+    font-size: 30px;
+    color: white;
+    position: relative; left: 105px; bottom: 25px;
+}
+
+.capabilities > h1{
+    width: 230px; height: 13px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  left: 8px; top: 4px;
+}
+
+.capabilities > li{
+    list-style-type: none;
+    position: relative; left: 5px; top: 36px;
+    margin-top: 20px;
+}
+
+.capabilities> li > button{
+    width: 230px; height: 63px;
+    background: #444654;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444654;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#exclamacao{
+    width: 22px; height: 22px;
+    font-size: 30px;
+    color: white;
+    position: relative; left: 419px; bottom: 308px;
+}
+
+.limitations > h1{
+    width: 230px; height: 13px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  left: 320px; bottom: 296px;
+}
+
+.limitations > li{
+    list-style-type: none;
+    position: relative; left: 320px; bottom: 263px;
+    margin-top: 20px;
+}
+
+.limitations > li > button{
+    width: 230px; height: 63px;
+    background: #444654;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444654;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#botaoespecial{
+    padding: 15px 10px 65px 10px;
+}
+
+.chatgpt{
+    width: 1170px; height: 48px;
+    position: relative; bottom: 60px; left: 0px;
+}
+
+.chatgpt > input{
+    width: 1170px; height: 48px;
+    background-color: #444654;
+    position: relative; bottom: 0px; left: 0px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0px 0px 5px 0px black;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.chatgpt > img{
+    width: 14px; height: 14px;
+    position: relative; bottom: 32px; left: 1120px;
+    transform: rotate(90deg);
+    color: #8E8E9E;
+    cursor: pointer;
+}
+
+#version{
+    position: relative; bottom: 40px;
+    width: 1170px;
+    color: #9A9B9F;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
 }

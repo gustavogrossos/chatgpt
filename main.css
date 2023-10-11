@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.menu-esquerdo{
+    
+    width: 261px; height: 100vh;
+    background-color: #202123;
+}
+
+.chat{
+    width: 244px; height: 45px;
+    position: absolute; left: 8px; top: 9px;
+    background-color: #202123;
+    color: white;
+    border-color: #444654;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    font-size: 13.5px;
+    font-weight: medium;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+
+.chatbot{
+    width: 244px; height: 45px;
+    position: absolute; left: 8px; top: 69px;
+    background-color: #444654;
+    color: white;
+    border-color: #444654;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    font-size: 13.5px;
+    padding-left: 23px;
+    font-weight: medium;
+
+}
+
+#chatleft{
+    width: 12px; height: 12px;
+    position: relative; top: 1px; right: 13px;
+    color: #C5C5D1;
+}
+
+#lixinho{
+    color: #C5C5D1;
+    padding: 0px 0px 0px 3px;
+}
+
+#lapis{
+    color: #C5C5D1;
+    padding: 0px 0px 0px 3px;
+}
+
+.chat > i{
+    position: relative; right: 15px; top: 3px;
+    font-size: 24px;
+}
+
+.barra{
+    position: absolute; top: 670px;
+    width: 261px; height: 1px;
+    background-color: #444654;
+}
+
+.links{
+    position: relative; top: 660px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+}
+
+.links > a{
+    padding-left: 55px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 13.5;
+}
+
+#lixo{
+    width: 20px; height: 20px;
+    font-size: 20px;
+    color: white;
+    position: relative; top: 34px; left: 17px;
+}
+
+#sol{
+    width: 20px; height: 20px;
+    font-size: 20px;
+    color: white;
+    position: relative; top: 34px; left: 17px;
+}
+
+#dc{
+    width: 20px; height: 20px;
+    font-size: 20px;
+    color: white;
+    position: relative; top: 34px; left: 17px;
+}
+
+#arrow1{
+    width: 20px; height: 20px;
+    font-size: 20px;
+    color: white;
+    position: relative; top: 34px; left: 17px;
+}
+
+#arrow2{
+    width: 20px; height: 20px;
+    font-size: 20px;
+    color: white;
+    position: relative; top: 34px; left: 17px;
+}
+
+.main{
+    background-color: #343541;
+    width: 100vw; height: 100vh;
+}
+
+.caixa{
+    width: 1100px; height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; bottom: 800px; left: 550px;
+}
+
