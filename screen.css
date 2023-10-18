@@ -258,11 +258,22 @@
     cursor: pointer;
 }
 
-#version{
-    position: relative; bottom: 40px;
-    width: 1170px;
+.link{
+    position: relative; bottom: 40px; bottom: 40px;
     color: #9A9B9F;
     font-size: 12px;
     text-align: center;
-    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.link > p{
+    padding-left: 10px;
+}
+
+#version{
+    color: #9A9B9F;
+    font-size: 12px;
+    text-align: center;  
 }

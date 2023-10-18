@@ -125,11 +125,106 @@
 }
 
 .caixa{
-    width: 1100px; height: 600px;
+    width: 1659px; height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative; bottom: 800px; left: 550px;
+    position: absolute; left: 261px; bottom: 363px;
 }
 
+.caixa-top{
+    position: absolute; left: 204px; bottom: 550px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.caixa-top > P{
+    padding-left: 26px;
+}
+
+.caixa-main{
+    width: 1659px; height: 162px;
+    position: absolute; bottom: 350px; 
+    background-color: #444654;
+}
+
+#gpt{
+
+    position: absolute; left: 204px; 
+    padding-top: 31px;
+}
+
+.caixa-main > p{
+    position: absolute; left: 260px;
+    color: white;
+    width: 1000px; height: 108px;
+    display: flex;
+    padding-top: 26px;
+    word-spacing: 3px;
+    line-height: 28px;
+}
+
+#joia{
+    position: absolute; left: 1075px;
+    padding-top: 31px;
+
+}
+
+.chatgpt > input{
+    width: 1170px; height: 48px;
+    background-color: #444654;
+    position: relative; top: 580px; left: 0px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0px 0px 5px 0px black;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.link{
+    position: relative; bottom: 40px; top: 600px;
+    color: #9A9B9F;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.link > p{
+    padding-left: 10px;
+}
+
+#version{
+    color: #9A9B9F;
+    font-size: 12px;
+    text-align: center;  
+}
+
+.chatgpt > img{
+    position: relative; top: 583px; right: 50px;
+    transform: rotate(90deg);
+    color: #8E8E9E;
+    cursor: pointer;
+}
+
+.botao{
+    border: solid 0.2px;
+    border-radius: 3px;
+    border-color: #C5C5D1;
+    width: 180px; height: 40px;
+    position: relative; top: 550px;
+    background-color: #343541;
+    text-decoration: none;
+}
+
+.botao > a{
+    color: #C5C5D1;
+    text-decoration: none;
+}
